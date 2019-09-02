@@ -1,0 +1,21 @@
+{
+    "name": "todo-app",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/loader.js",
+    "scripts": {
+        "dev": "nodemon",
+        "production": "pm2 start src/loader.js --name todo-app"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1",
+        "mongoose": "^5.6.11",
+        "node-restful": "^0.2.6"
+    },
+    "devDependencies": {
+        "nodemon": "^1.19.1"
+    }
+}
